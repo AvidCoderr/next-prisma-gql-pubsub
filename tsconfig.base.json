@@ -1,0 +1,25 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2020",
+    "module": "esnext",
+    "lib": ["es2020", "dom", "dom.iterable", "esnext", "esnext.asynciterable"],
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@yetoman/fs-auth": ["libs/fs-auth/src/index.ts"],
+      "@yetoman/fs-common": ["libs/fs-common/src/index.ts"],
+      "@yetoman/fs-dto": ["libs/fs-dto/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
